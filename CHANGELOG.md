@@ -21,3 +21,9 @@
 - První testovací verze.
 - Stažení posledního radarového PNG z ČHMÚ OpenData.
 - Vyhodnocení deště v místě a okolí.
+
+
+## 0.3.1
+
+- Opraveno načítání config flow: OpenCV se importuje až při spuštění integrace, ne při otevření nastavení.
+- Odstraněny soubory `__pycache__` z repozitáře.

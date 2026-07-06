@@ -1,7 +1,9 @@
 {
   "domain": "chmi_radar",
   "name": "ČHMÚ Radar",
-  "codeowners": ["@jan-neskudla"],
+  "codeowners": [
+    "@jan-neskudla"
+  ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/jan-neskudla/ha-chmi-radar",
@@ -12,5 +14,5 @@
     "numpy>=1.26.0",
     "opencv-python-headless>=4.9.0.80"
   ],
-  "version": "0.3.0"
+  "version": "0.3.1"
 }

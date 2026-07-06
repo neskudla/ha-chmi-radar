@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ČHMÚ Radar",
+        "description": "Nastavení detekce deště z radarového PNG kompozitu ČHMÚ. Odhad příchodu deště používá OpenCV optical flow.",
+        "data": {
+          "name": "Název",
+          "latitude": "Zeměpisná šířka",
+          "longitude": "Zeměpisná délka",
+          "radius_km": "Okruh kolem domu v km",
+          "rain_threshold": "Práh deště 1–255",
+          "max_forecast_minutes": "Maximální odhad v minutách",
+          "scan_interval": "Interval aktualizace v sekundách",
+          "base_url": "URL adresáře s PNG radarem",
+          "min_lon": "Minimální délka mapy",
+          "max_lon": "Maximální délka mapy",
+          "min_lat": "Minimální šířka mapy",
+          "max_lat": "Maximální šířka mapy"
+        }
+      }
+    }
+  }
+}

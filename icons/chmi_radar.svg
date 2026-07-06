@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Rain cloud icon">
+  <defs>
+    <linearGradient id="cloud" x1="0" y1="20" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b9c7d2"/>
+      <stop offset="1" stop-color="#263746"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8bd5ff"/>
+      <stop offset="1" stop-color="#1e8ed0"/>
+    </linearGradient>
+  </defs>
+  <path d="M69 158c-29 0-53-22-53-50 0-26 21-48 48-50 10-22 32-36 57-36 33 0 61 25 65 57 28 2 50 22 50 47 0 27-23 32-51 32H69z" fill="#1c2d3a" opacity=".95"/>
+  <path d="M70 145c-23 0-42-17-42-38 0-20 17-37 39-38 8-20 29-33 52-33 30 0 55 23 57 51 23 1 42 18 42 38 0 21-19 20-42 20H70z" fill="url(#cloud)"/>
+  <path d="M57 93c8-10 23-16 39-12 8-18 28-29 51-25" fill="none" stroke="#dce7ee" stroke-width="8" stroke-linecap="round" opacity=".45"/>
+  <g fill="url(#drop)" stroke="#0b4f83" stroke-width="7" stroke-linejoin="round">
+    <path d="M76 177c0 14-9 23-20 23s-20-9-20-20c0-12 20-36 20-36s20 21 20 33z"/>
+    <path d="M148 187c0 14-9 23-20 23s-20-9-20-20c0-12 20-36 20-36s20 21 20 33z"/>
+    <path d="M220 177c0 14-9 23-20 23s-20-9-20-20c0-12 20-36 20-36s20 21 20 33z"/>
+  </g>
+  <g fill="none" stroke="#d7f2ff" stroke-width="7" stroke-linecap="round" opacity=".8">
+    <path d="M51 174c-5 6-7 10-7 16"/>
+    <path d="M123 184c-5 6-7 10-7 16"/>
+    <path d="M195 174c-5 6-7 10-7 16"/>
+  </g>
+</svg>

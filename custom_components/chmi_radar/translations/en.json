@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "CHMI Radar",
+        "description": "Rain detection from CHMI radar PNG composite. Rain ETA uses OpenCV optical flow.",
+        "data": {
+          "name": "Name",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "radius_km": "Radius around home in km",
+          "rain_threshold": "Rain threshold 1–255",
+          "max_forecast_minutes": "Maximum ETA in minutes",
+          "scan_interval": "Update interval in seconds",
+          "base_url": "Radar PNG directory URL",
+          "min_lon": "Map minimum longitude",
+          "max_lon": "Map maximum longitude",
+          "min_lat": "Map minimum latitude",
+          "max_lat": "Map maximum latitude"
+        }
+      }
+    }
+  }
+}
